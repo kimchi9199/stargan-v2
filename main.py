@@ -115,7 +115,7 @@ if __name__ == '__main__':
     parser.add_argument('--randcrop_prob', type=float, default=0.5,
                         help='Probabilty of using random-resized cropping')
     parser.add_argument('--total_iters', type=int, default=100000,
-                        help='Number of total iterations')  giam iteration
+                        help='Number of total iterations')  
 #     parser.add_argument('--total_iters', type=int, default=1000,
 #                         help='Number of total iterations')
     parser.add_argument('--resume_iter', type=int, default=0,
